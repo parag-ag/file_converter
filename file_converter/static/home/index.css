@@ -1,0 +1,29 @@
+body,html{
+  min-width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+header{
+  background-color: black;
+  border-bottom: 1px solid white;
+  color: lightgrey;
+  padding: 1%;
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+form{
+   min-height: 100%;
+   border-right: 1px solid black;
+}
+
+center a{
+
+  min-height: 100%;
+  border-left: 1px solid black;
+  position: absolute;
+  top:50%;
+}
