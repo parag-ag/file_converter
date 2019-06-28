@@ -1,5 +1,5 @@
 # file_converter
-A website to convert file types.
+A website to convert file types
 
 This website converts one file type to other.
 
@@ -8,6 +8,7 @@ Currently following type conversions are available:
  <li> json <--> csv </li>
  <li> xml  <--> json </li>
 </ul>
+</b>
 
 Work is in progress for the following type conversions:
 <ul>
