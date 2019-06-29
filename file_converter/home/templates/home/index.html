@@ -26,7 +26,11 @@
     </form>
 
     <center class="col-md-6">
-      <a href="#" class="btn btn-primary">download</a>
+      {% if url  != '' %}
+        <a href="{{url}}" class="btn btn-primary">download</a>
+      {% else %}
+        <a href="#" class="btn btn-primary">download N/A</a>
+      {% endif %}
     </center>
   </div>
 
