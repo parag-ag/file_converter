@@ -26,7 +26,13 @@
     </form>
 
     <center class="col-md-6">
-      <a href="#" class="btn btn-primary">download</a>
+      {% if documents %}
+      {% for i in documents %}
+        <a href="{{i.document.url}}" class="btn btn-primary">download</a>
+      {% endfor %}
+      {% else %}
+        <a href="#" class="btn btn-primary">download N/A</a>
+      {% endif %}
     </center>
   </div>
 
